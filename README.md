@@ -29,6 +29,28 @@ Dependencies:
   * redis-server >= 2.8.0
   * nodejs >= 4 LTS
   * nginx
+  
+  
+  
+   cat go.mod 
+module example.com/m
+
+go 1.15
+
+require (
+        github.com/aristanetworks/goarista v0.0.0-20170210015632-ea17b1a17847
+        github.com/ethereum/ethash v0.0.0-20170407112842-f5f0a8b19625
+        github.com/ethereum/go-ethereum v1.9.21
+        github.com/gorilla/mux v1.8.0
+        github.com/sammy007/open-ethereum-pool v0.0.0-20171111114927-bcfc0eb0e683
+        github.com/yvasiyarov/go-metrics v0.0.0-20150112132944-c25f46c4b940 // indirect
+        github.com/yvasiyarov/gorelic v0.0.7
+        github.com/yvasiyarov/newrelic_platform_go v0.0.0-20160601141957-9c099fbc30e9 // indirect
+        golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+        gopkg.in/bsm/ratelimit.v1 v1.0.0-20160220154919-db14e161995a // indirect
+        gopkg.in/redis.v3 v3.6.4
+)
+
 
 **I highly recommend to use Ubuntu 16.04 LTS.**
 
